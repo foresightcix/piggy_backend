@@ -90,7 +90,7 @@ def hablar(texto):
     print(f"🔊 Chanchito dice: '{texto}'")
     try:
         response = client.audio.speech.create(
-            model="tts-1", voice="fable", input=texto
+            model="tts-1-hd", voice="nova", input=texto
         )
         audio_bytes = io.BytesIO(response.content)
         data, fs = sf.read(audio_bytes)
