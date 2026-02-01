@@ -1,0 +1,21 @@
+{'data': {'schema': 'public', 'table': 'movimientos', 'commit_timestamp': '2026-01-30T04: 56: 23.745Z', 'type': <RealtimePostgresChangesListenEvent.Insert: 'INSERT'>, 'errors': None, 'columns': [
+            {'name': 'id', 'type': 'uuid'
+            },
+            {'name': 'usuario_id', 'type': 'uuid'
+            },
+            {'name': 'cuenta_origen_id', 'type': 'uuid'
+            },
+            {'name': 'cuenta_destino_id', 'type': 'uuid'
+            },
+            {'name': 'monto', 'type': 'numeric'
+            },
+            {'name': 'descripcion', 'type': 'text'
+            },
+            {'name': 'created_at', 'type': 'timestamptz'
+            }
+        ], 'record': {'id': 'e0fa5c27-d115-4d48-8bd6-6754f472f46a', 'monto': 35.0, 'created_at': '2026-01-30T04: 56: 23.742953+00: 00', 'usuario_id': '0dec4960-612b-4065-8f1a-4b78bd026fc6', 'descripcion': None, 'cuenta_origen_id': 'deb5a61e-4d38-4446-ba25-7de102e35c90', 'cuenta_destino_id': '30c0bcf3-2dee-4d85-a5c4-568e81fc3eab'
+        }
+    }, 'ids': [
+        101520729
+    ]
+}
